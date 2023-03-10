@@ -1,0 +1,73 @@
+Test 1
+The program must be able to input at least two numbers and perform one operation correctly and output.
+Input :
+10
+2
++
+=
+Input :
+11
+3
+-
+=
+Input :
+9
+4
+*
+=
+Input :
+11
+3
+/
+=
+Input :
+11
+3
+%
+=
+
+Test 2
+The program must be able to handle multiple numbers and multiple operations.
+Input :
+3
+3
+*
+4
+4
+*
++
+=
+Input :
+1234
+2345
+3456
+d
++
+d
++
+d
+=
+
+Test 3
+
+The program must be able to correctly handle saturation.
+Input :
+2147483647
+1
++
+=
+Input :
+-2147483647
+1
+-
+=
+20
+-
+=
+Input :
+100000
+0
+-
+d
+*
+=
